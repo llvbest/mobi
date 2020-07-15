@@ -1,0 +1,81 @@
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.page-header {
+    border-bottom: 1px solid #f90;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.page-title__logo {
+    margin-right: 1em;
+    width: auto;
+    height: 80px;
+}
+
+.page-body {
+    padding: 1em 0;
+    flex: 1 1 100%;
+}
+
+.buttons-panel {
+    margin-bottom: 1em;
+}
+
+.album-img {
+    height: 32px;
+    width: auto;
+}
+
+.toggleable-block {
+    padding: 1em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    background-color: #f7f7f7;
+    border: 1px solid #dedede;
+    display: none;
+}
+
+.toggleable-block label {
+    font-size: .9em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.toggleable-block__title {
+    margin-bottom: .5em;
+}
+
+.toggleable-block__content {
+    margin-top: 1em;
+}
+
+.file-input {
+    margin-bottom: 1em;
+}
+
+.file-input__label {
+    display: block;
+}
+
+.items-list {
+    margin-top: 1em;
+    font-size: .9em;
+}
+.clip {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    width: 300px;
+}
