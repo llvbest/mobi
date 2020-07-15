@@ -26,6 +26,9 @@
 В результате — ссылка на гитхаб и развёрнутое демо
 
 ________________________________________________________________________
+Cсылка на гит - https://github.com/llvbest/mobi
+Развернутое демо - http://test.socanalysis.org/
+
 Написаны самописные классы с автозагрузчиками во входном скрипте, дабы разделить функционал 
 по шаблонам ООП. Некоторый контроллер (в нем вся выборка с базы), создан класс для работы через
 pdo с базой, экранирование и составление с помощью строителя запросы к бд, не допустить инъекций.
@@ -61,12 +64,9 @@ http://prntscr.com/thz78h
 
 //весб код уникален, ни на гитхабе ни в просторах его нет
 
-//config file for connect database
-    ./ideal/classes/Config.php
-//dump dor database:
-    dump_db.sql
-//folder uploads
-    chmod(0755)
+//config file for connect database ./ideal/classes/Config.php
+//dump dor database: dump_db.sql
+//folder uploads chmod(0755)
 =====
     on native php, mysql, memcached, jquery, bootstrap
     
