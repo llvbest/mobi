@@ -13,7 +13,8 @@
 
 <div class="page">
     <div>
-        <a href="/" class="btn btn-secondary">Главная</a>
+        <a href="/" class="btn btn-secondary" style="float: left;">Главная</a>
+        <a href="https://github.com/llvbest/mobi" style="float: right;">https://github.com/llvbest/mobi</a>
     </div>
     <div id="page-body" class="page-body">
         <div class="buttons-panel">
@@ -116,7 +117,7 @@
                 <div class="row">
                     <div class="form-group col-sm">
                         <label>Текст</label>
-                        <textarea name="itemText" class="form-control form-control-sm" placeholder="text" required><?= (empty($modelResults)) ? '' : trim($modelResults['itemText']); ?></textarea>
+                        <textarea name="itemText" rows="5" class="form-control form-control-sm" placeholder="text" required><?= (empty($modelResults)) ? '' : trim(htmlspecialchars($modelResults['itemText'])); ?></textarea>
                     </div>
                 </div>
 
@@ -177,7 +178,7 @@
                                 <?= (empty($this->category[$row['category']])) ? '' : $this->category[$row['category']] ?>
                             </td>
                             <td>
-                            <div class="clip"><?=$row['itemText']?></div>
+                            <div class="clip"><?=htmlspecialchars($row['itemText']);?></div>
                             </td>
                             <td>
                                 <?php if(!empty($row['imageName'])) : ?>

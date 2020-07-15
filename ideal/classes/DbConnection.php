@@ -40,6 +40,7 @@ class DbConnection
      */
     public function quote($value)
     {
+        $value = preg_replace("/\<script.*?\<\/script\>/uims", "", $value);
         return $this->pdo->quote((string) $value);
     }
 
