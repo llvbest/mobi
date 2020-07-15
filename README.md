@@ -62,13 +62,13 @@ http://prntscr.com/thz78h
 Редактирование/просмотр по нажатию в списке на название http://prntscr.com/thz57e
 Сортировка по хедерам таблици.
 
-//весб код уникален, ни на гитхабе ни в просторах его нет
+//весь код уникален, ни на гитхабе ни в просторах его нет
 
-//config file for connect database ./ideal/classes/Config.php
-//dump dor database: dump_db.sql
-//folder uploads chmod(0755)
-=====
-    on native php, mysql, memcached, jquery, bootstrap
+1.config file for connect database ./ideal/classes/Config.php
+2. dump dor database: dump_db.sql
+3. folder uploads chmod(0755)
+_----
+on native php, mysql, memcached, jquery, bootstrap
     
     
 
